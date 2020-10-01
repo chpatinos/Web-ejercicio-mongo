@@ -1,6 +1,6 @@
 const { MongoClient } = require("mongodb");
 
-const url = "mongodb+srv://admin:22YMaQx9k21fYwQm@cluster0.kbrwt.mongodb.net/WEB?retryWrites=true&w=majority";
+const url = "mongodb+srv://user:password@host";
 
 const conn = MongoClient.connect(url, { useUnifiedTopology: true });
 
